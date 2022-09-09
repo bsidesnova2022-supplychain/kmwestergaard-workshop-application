@@ -35,9 +35,9 @@ jobs:
 
       # Get docker credentials
       - name: Login to Amazon ECR Private
-       id: login-ecr
-       uses: aws-actions/amazon-ecr-login@v1
-       with: 
+        id: login-ecr
+        uses: aws-actions/amazon-ecr-login@v1
+        with: 
          registry-type: public
 
 
